@@ -1,6 +1,5 @@
 # KKBOX datagame 
 
-注意！merge太多檔案的dataframe會out of memory
 
 # train_source
 * 有~57萬個session
@@ -18,7 +17,7 @@
     * 如果聆聽率太小，代表點了但沒有聽
     * 但是有些歌曲只有30秒，或甚至是10秒以下
     * 注意！第20首歌曲實際上無法得知聆聽時間，所以正式訓練的時候還要再考慮。
-
+    *  注意！merge太多檔案的dataframe會out of memory
 播放次數統計
 
 
